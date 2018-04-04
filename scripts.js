@@ -5,7 +5,8 @@ var weapon = "";
 var solved = false;
 
 if (room === 'ballroom') {
-    weapon = 'poison';  solved = suspect === 'Mr. Kalehoff';
+    weapon = 'poison';
+    solved = suspect === 'Mr. Kalehoff';
 } else if (room === 'gallery') {
     weapon = 'trophy';
     solved = suspect === 'Ms. Van Cleve';
@@ -18,5 +19,5 @@ if (room === 'ballroom') {
 }
 
 if (solved) {
-        console.log(suspect + " did it in the " + room + " with the " + weapon + "!");
+    console.log(suspect + " did it in the " + room + " with the " + weapon + "!");
 }
